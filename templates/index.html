@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit Predictor | Predicts Hand Written digits</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="Heading">
+        <h1>Canvas Play - The Digit Predictor</h1>
+    </div>    
+    <div class="main">
+        <h3>Draw any digit between 0 and 9</h3>
+        <div class="canvas">
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </div>
+        <div class="btn_type">
+            <input type="button" id="clearBTN" value="Clear Canvas">
+            <input type="button" id="submitBTN" value="Predict Digit">
+        </div>
+        <div class="result_body">
+            <h2>The Prediction:</h2>
+            <div id="result"></div>
+        </div>       
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

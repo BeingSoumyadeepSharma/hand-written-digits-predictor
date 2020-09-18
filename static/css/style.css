@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+#canvas {
+  border: solid 5px #0a790a;
+  border-radius: 30px;
+}
+
+.Heading {
+  background: #0088b1;
+  padding: 30px 70px;
+}
+
+.Heading h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+.main {
+  padding: 40px 70px;
+}
+
+.main h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #000;
+}
+
+.main .canvas {
+  padding-top: 40px;
+}
+
+.main .btn_type {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.main input[type="button"] {
+  padding: 13px 30px;
+  margin: 0px 13px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  background: #2b087e;
+}
+
+.main .result_body {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+.main .result_body h2 {
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.main .result_body #result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 300px;
+  border: solid 5px #e08906;
+  border-radius: 30px;
+}
+
+.main .result_body span {
+  font-weight: 900;
+  font-size: 200px;
+  color: brown;
+}
+/*# sourceMappingURL=style.css.map */
