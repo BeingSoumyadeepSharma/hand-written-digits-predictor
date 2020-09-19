@@ -6,7 +6,7 @@ This a Web Application developed using Flask and TensorFlow. This Application ca
 
 In the backend, the URI is processed into an image. The processing of the image is done using the **image_processor.py** file. In this file, the image is generated using File Handling techniques which is then send to an OpenCV model where the image is converted to data (numpy array). This array is then returned back to the Flask app.
 
-The numpy array returned is then passed as parameter to the **digitPredictor()** function present in the **digit_predictor.py**. In the **digit_predictor.py** , the prediction is made using the model created in the **main_model.py** file. The result generated is send back to the Flask app from where it is send to the frontend to be display on the webpage.
+The numpy array returned is then passed as parameter to the **digitPredictor()** function present in the **digit_predictor.py**. In the **digit_predictor.py** , the prediction is made using the model created in the **main_model.py** file. The result generated is send back to the Flask app from where it is send to the frontend to be displayed on the webpage.
 
 ### Python Modules used :wrench:
 
