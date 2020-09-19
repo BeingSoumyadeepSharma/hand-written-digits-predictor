@@ -31,7 +31,7 @@ The above part is same for Windows.
 
 ### Step 2:
 
-We need to create an environment for this project. We can use either **virtualenv** (which I used) or **pipenv**. It is preferred that we use a Python version lower than v3.7.9, as I have used v3.7.9 to build this project.
+We need to create an environment for this project. We can use either **virtualenv** (which I used) or **pipenv**. It is preferred that we use a Python version lower than or equal to v3.7.9, as I have used v3.7.9 to build this project.
 
  - #### Virtualenv
     
