@@ -63,7 +63,7 @@ We need to create an environment for this project. We can use either **virtualen
 
 ### Step 3:
 
-Now we need to install all the required modules. For this we will use the **requirements.txt** file
+Now we need to install all the required modules. For this we will use the **requirements.txt** file.
 
  - #### Virtualenv
 
