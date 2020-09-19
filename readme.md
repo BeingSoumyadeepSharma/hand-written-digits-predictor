@@ -2,7 +2,7 @@
 
 ## Description :page_with_curl:
 
-This a Web Application developed using Flask and TensorFlow. This Application can predict any digit between 0 and 9 drawn on the canvas. A Deep Neural Network model trained on the MNIST Dataset is being used here. The **main_model.py** is the file where I have created the model using TensorFlow and Keras and saved it for later use. After a digit is drawn on the canvas, this application sends the image URI using the Fetch Api to the Flask backend **(app.py)**.
+This a Web Application developed using Flask and TensorFlow. This Application can predict any digit between 0 and 9 drawn on the canvas. A Deep Neural Network model trained on the MNIST Dataset is being used here. The **main_model.py** is the file where I have created the model using TensorFlow and Keras and saved it for later use. After a digit is drawn on the canvas, this application sends the image URI using the Fetch API to the Flask backend **(app.py)**.
 
 In the backend, the URI is processed into an image. The processing of the image is done using the **image_processor.py** file. In this file, the image is generated using File Handling techniques which is then send to an OpenCV model where the image is converted to data (numpy array). This array is then returned back to the Flask app.
 
