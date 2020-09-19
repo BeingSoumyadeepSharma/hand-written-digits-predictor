@@ -38,7 +38,7 @@ We need to create an environment for this project. We can use either **virtualen
     - **On Linux**
         ```sh
         $ pip install virtualenv
-        $ venv env
+        $ virtualenv env
         $ source env/bin/activate
         ```
     - **On Windows**
