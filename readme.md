@@ -20,7 +20,7 @@ The following modules have been used to build this Project
 
 ### Step 1:
 
-Clone the repository using the following command and change directory.
+Clone the repository using the following commands and then change the directory.
 
 ```sh
 $ git clone https://github.com/BeingSoumyadeepSharma/hand-written-digits-predictor.git
